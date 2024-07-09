@@ -57,7 +57,7 @@ max-width: 240px;
 
 .cover_img {
   padding: 24px;
-  background-image: url(/Project2/images/Healing-cover\ 1cover_img.png);
+  background-image: url(images/Healing-cover\ 1cover_img.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@ max-width: 240px;
 /* cover 1 Css */
 .cover_img_1 {
   padding: 24px;
-  background-image: url(/Project2/images/image-1.png);
+  background-image: url(images/image-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
