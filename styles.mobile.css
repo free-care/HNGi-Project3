@@ -64,7 +64,6 @@
   .cover_img_1 {
     padding: 16px;
     min-height: 50vh;
-    background-position: left;
   }
 
   .cover_img_1 h1 {
@@ -88,19 +87,16 @@
   .reason_for_art div p strong {
     font-weight: 1000;
   }
-}
-
-/* cart collection media query */
-@media screen and (max-width: 600px) {
+ 
+  /* Section for Art_Gallary css */
   .art_gallery {
-    display: grid;
     grid-template-columns: 1fr;
-    padding: 18px 5.5em;
+    padding: 18px 44px;
+    grid-auto-rows: 300px;
   }
 
   .cart_gallery h1 {
     font-size: 2.5rem;
-    text-align: center;
   }
 
   .cart_gallery button {
@@ -108,100 +104,105 @@
     font-size: 1rem;
   }
 
-  .cart_collection {
-    row-gap: 7px;
-    justify-content: space-evenly;
-    max-height: 50vh;
+  .cart_collection .image {
+    padding: 12px 0;
   }
 
   .cart_collection .image button {
-    padding: 12px;
-    /* font-size: 1.1rem; */
-    
+    padding: 7px;    
   }
 
-  .pricing_info {
-    font-size: 1.5em;
+  .pricing {
+    font-size: 1.3em;
   }
 
-  .pricing_info span {
+  .pricing span {
     font-weight: 1000;
   }
 
   /* review section css */
   .review_section {
-    padding: 24px 30px;
-  }
-  
-  .review_images {
-    column-gap: 26px;
-    max-width: 73vw;
-  }
-  
-  .review_images img {
-    width: 40px;
-  }
-  
-  .review_star img {
-    width: 18px;
-    height: 18px;
+    padding: 20px 0;
   }
 
-  /* footer css */
-  .footer_section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: repeat(2, auto);
+  .review_info {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .review_images img {
+    width: 50px;
+  }
+
+  .review_star img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .review_images img:nth-of-type(1) {
+    width: 20px;
+  }
+  
+  .review_images img:nth-of-type(2) {
+    width: 35px;
+  }
+  
+  .review_images img:nth-of-type(4) {
+    width: 35px;
+  }
+  
+  .review_images img:nth-of-type(5) {
+    width: 20px;
+  }
+
+   /* footer css */
+   .footer_section {
+    padding: 1.5rem 1.2rem;
+    font-size: 1em;
+    height: 250px;
+    column-gap: 6px;
   }
 
   input {
-    width: 280px;
-    padding: 10px 18px;
+    width: 85%;
+    padding: 5px 8px;
     border: 1px solid white;
     background-color: #000000;
     color: white;
     border-radius: 10px;
   }
 
-  input::placeholder {
-    color: white;
-    font-weight: bold;
+  input[type="text"] {
+    font-size: 1em;
   }
 
   .footer_section p {
-    font-size: smaller;
-    line-height: 2;
+    font-size: 0.9em;
   }
 
   .footer_section h2 {
-    margin-bottom: 50px;
-  }
-
-  .footer_section h4 {
-    font-size: 14px;
+    margin-bottom: 12.5px;
   }
 
   .footer_section h4, input {
-    margin-bottom: 24px;
-  }
-
-  .promo_info {
-    line-height: 0;
-    margin-bottom: 24px;
-  }
-
-  .footer_section img {
-    width: 24px;
-    height: 24px;
+    margin-bottom: 10px;
   }
 
   .socio_icons {
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+  }
+
+  .promo_info {
+    margin-bottom: 12px;
+  }
+
+  .footer_section img {
+    width: 16px;
+    height: 16px;
   }
 
   .copyright {
-    align-self: end;
+    line-height: 0;
+    font-size: 1em;
   }
 }
-
